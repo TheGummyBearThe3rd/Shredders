@@ -30,25 +30,28 @@
         padding: 0px;
       }
       body {
-        background-color: #1e2324;
+        background-color: #010108;
         width: 100%;
         height: 100%;
         margin: 0px;
       }
       button {
-        background-color: #33626c;
+        background-color: #45115B;
         padding: 6px;
         padding-left: 8px;
         padding-right: 8px;
         border: transparent;
         font-size: 15px;
         cursor: pointer;
+        border: 2px solid #11275B;
+        
       }
-      #main_div {
+      .main_div {
         max-width: 800px;
+        height 950px;
         object-fit: contain;
 
-        background-color: #252b2d;
+        background-color: #45115B;
 
         padding: 4px;
         padding-left: 16px;
@@ -63,8 +66,27 @@
         flex-wrap: wrap;
         gap: 8px;
       }
+      .sidenav {
+          height: 95%; 
+          width: 320px; 
+          position: fixed; 
+          z-index: 1; 
+          top: 1.5% ; 
+          left: 15px;
+          background-color: #20115B; 
+          overflow-x: hidden; 
+          padding-top: 20px;
+      }
+      
     </style>
 <head> 
-<pa>hi</pa>
+<div class="sidenav">
+<button onclick="window.location.href='index.html'">teest!</button> 
+<button onclick="window.location.href='index.html'">test!</button>
+</div>
+<div class="main_div">
+  <p>wiki</p>
+  <p>wikipedia</p>
+</div>
 </body>
 </head>
